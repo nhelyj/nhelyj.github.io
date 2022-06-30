@@ -1,0 +1,35 @@
+@media screen and (max-width: 912px) {
+    body{
+     width: 100vw;
+     height: 100vh;
+    }
+    .display{
+
+       width:100vw ;
+       height:100vw ;
+       
+    }
+    .container{
+        width: 30%;
+        height: 14%;
+    }
+    .nhelyj div:hover{
+        transition: .2s ease-in-out
+    }
+    .gif{
+        width: 30vw;
+        height: 14vw;
+    }
+}
+@media screen and (max-width: 540px) {
+ 
+    .container{
+        width: 36%;
+        height: 18%;
+
+    }
+    .gif{
+        width: 36vw;
+    height: 18vw;
+    }
+}

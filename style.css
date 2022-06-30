@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(244, 244, 221);
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.display{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 19.2%;
+    height: 8.4%;
+    background-color: rgba(208, 203, 186, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5%;
+}
+.nhelyj{
+    height: 90%;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.nhelyj div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 14%;
+    min-width: 10%; 
+   
+}
+.h, .e, .l{
+   margin-left: 1%;
+}
+.y{
+   margin: 0 -2% 0 -3%;
+}
+.nhelyj div:hover{
+    transition: .7s ease-in-out;
+    max-width: 40%;
+    min-width: 40%;  
+}
+.nhelyj div img{
+    width: 100%;
+    height: 100%; 
+}
+.nhelyj div img:hover{
+    transition: .4s ease-in-out;
+    filter:sepia(100%);
+}
+.gif{ 
+    pointer-events: none;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    width: 19.2vh;
+    height: 8.4vh;
+    filter: grayscale(100%);
+}
+.gif img{
+   max-height: 100%;
+   max-width: 100%;
+}
+.gif:hover{
+    opacity: 7;
+}
